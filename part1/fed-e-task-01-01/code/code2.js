@@ -107,13 +107,18 @@ console.log(averageDollarValue(cars))  // 最终返回
 let _underscore = fp.replace(/\W+/g, '_') // <--无须改动
 
 // 1.实现 sanitizeNames 函数
-const cars = [
-  'ferrari_ff',
-  'spyker_c12_zagato',
-  'jaguar_xkr-s',
-  'audi_r8',
-  'aston_martin_one_7',
-  'pagani_huayara'
-]
+
+
 // 2.打印测试
 console.log(sanitizeNames(cars))
+
+/*
+    [
+      'ferrari_ff',
+      'spyker_c12_zagato',
+      'jaguar_xkr-s',
+      'audi_r8',
+      'aston_martin_one_7',
+      'pagani_huayara'
+    ]
+*/
