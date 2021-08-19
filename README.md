@@ -1,8 +1,22 @@
 # 拉勾教育大前端高薪训练营作业
 
-#### 推荐操作
 
-#### 1.在 gitee 或 github 创建自己的作业仓库, 并拿到仓库地址
+
+## 一、创建作业仓库
+
+#### 1.注册登录 gitee 后. 克隆作业模板
+
+地址：https://gitee.com
+
+(不要复制 $ 符号)
+
+```
+$ git clone https://gitee.com/lagoufed/lagoufed-e-task.git
+```
+
+
+
+#### 2.在 gitee 创建自己的作业仓库, 并拿到仓库地址
 
 ( **需要先注册账户**。推荐 gitee，国内相对稳定一些，github账户也可直接登录 )
 
@@ -20,28 +34,37 @@
 
 　
 
-#### 2.克隆作业模板, 与新建仓库关联
+#### 3.本地仓库与远程仓库关联
 
 ```shell
-# 1)克隆. 不要复制 $ 符号 
-$ git clone https://gitee.com/lagoufed/lagoufed-e-task.git
-
-# 2)进入目录
+# 1)进入目录
 $ cd lagoufed-e-task
 
-# 3)关联新建的空库  『后面 https://.... .git 是自己新建的仓库地址』
-$ git remote set-url origin https://gitee.com/xxx/lagou-e-task.git
+# 2)生成本地仓库
+$ git init
+
+# 3)生成一个提交
+$ git add .
+$ git commit -m "init"
+
+# 4)关联到远程空库     https:// .... 是自己的远程仓库地址
+$ git remote add origin https://gitee.com/xxx/lagou-e-task.git
+
+# 5)把本地仓库代码推送到远程仓库
+$ git push origin master
 ```
 
 　
 
-#### 3.学习完相应模块, 到本地相应文件夹下补全\书写作业.
+
+
+## 二、正式写作业
+
+#### 1.在本地代码仓库中完成作业
 
 ![](./part1/fed-e-task-01-01/images/2020-12-28_182244.png)
 
-　
-
-#### 4.完成作业. 保存版本. 推送到远程仓库.
+#### 2.完成作业. 保存版本. 推送到远程仓库.
 
 ```shell
 $ git add .
@@ -51,14 +74,9 @@ $ git push origin master
 
 　
 
-#### 5.提交自己仓库相应模块地址即可
+#### 3.提交自己仓库相应模块地址即可
 
 ![](./part1/fed-e-task-01-01/images/2020-12-28_191708.png)
 
 
 
-
-
-
-
-[**对于老学员 Fork 后, 出现403无权访问的解决**](https://gitee.com/lagoufed/fed-e-questions/blob/master/part1/%E8%A7%A3%E5%86%B3%E4%BD%9C%E4%B8%9A403%E9%97%AE%E9%A2%98.md)
