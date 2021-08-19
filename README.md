@@ -1,6 +1,10 @@
 # 拉勾教育大前端高薪训练营作业
 
+　
 
+[**-- 视频讲解 --**](https://www.bilibili.com/video/BV1aq4y1Q72y)
+
+　
 
 ## 一、创建作业仓库
 
