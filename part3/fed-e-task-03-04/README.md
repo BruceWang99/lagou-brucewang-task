@@ -29,7 +29,7 @@ git clone https://gitee.com/2xx/my-gridsome.git
 【博客练习要用的模板】
 
 ```
-git clone https://gitee.com/2xx/gridsome-blog-html.git
+git clone https://gitee.com/2xx/startbootstrap-clean-blog.git
 ```
 
 【Mac 版本】

@@ -1,10 +1,27 @@
 # 编程题
 
-#### 使用 NuxtJS 实现 RealWorld 全部功能
+#### 1.使用 NuxtJS 实现 RealWorld 全部功能
 
-#### DEMO地址   https://demo.realworld.io/#/
+- **RealWorld 官网**   https://gothinkster.github.io/realworld/
+- **demo 地址**   https://demo.realworld.io/#/
 
-**要求**
+
+
+#### 2.接口
+
+**文档说明**
+
+https://gothinkster.github.io/realworld/docs/specs/backend-specs/endpoints
+
+**官方接口1**  https://api.realworld.io
+
+**官方接口2**  https://conduit.productionready.io  (最近总出问题)
+
+**备用接口**    http://realworld.api.fed.lagounews.com
+
+
+
+#### 3.要求
 
 - 首先到 demo 地址注册一个自己的账号, 方便自己代码调测
 - 实现功能包括: 注册/登录/退出、文章发表/修改/列表/分页/标签/详情/点赞/取消点赞、个人中心，个人信息更新
@@ -13,7 +30,9 @@
 
 　　
 
-**说明：一定要完成下面3个练习，包含本模块「服务器部署的大部分问题」**
+#### 4.帮助
+
+**( 一定要完成下面3个练习，包含本模块「服务器部署的大部分问题」 )**
 
 [**练习一：服务器购买与初始化**](https://gitee.com/lagoufed/fed-e-questions/tree/master/part3/%E7%AC%94%E8%AE%B01-%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B4%AD%E4%B9%B0%E4%B8%8E%E5%88%9D%E5%A7%8B%E5%8C%96)
 
