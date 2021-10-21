@@ -9,15 +9,15 @@
 
 #### 2.接口
 
-**文档说明**
+- **文档说明**
 
-https://gothinkster.github.io/realworld/docs/specs/backend-specs/endpoints
+  https://gothinkster.github.io/realworld/docs/specs/backend-specs/endpoints
 
-**官方接口1**  https://api.realworld.io
+- **官方接口1**  https://api.realworld.io    ( 必须用自己注册的账号 )
 
-**官方接口2**  https://conduit.productionready.io  (最近总出问题)
+- **官方接口2**  https://conduit.productionready.io   ( 必须用自己注册的账号 )
 
-**备用接口**    http://realworld.api.fed.lagounews.com
+- **备用接口**    http://realworld.api.fed.lagounews.com
 
 
 
@@ -26,7 +26,7 @@ https://gothinkster.github.io/realworld/docs/specs/backend-specs/endpoints
 - 首先到 demo 地址注册一个自己的账号, 方便自己代码调测
 - 实现功能包括: 注册/登录/退出、文章发表/修改/列表/分页/标签/详情/点赞/取消点赞、个人中心，个人信息更新
 - 本作业需要 放在 **github** 个人仓库, 并且**实现自动化部署**
-- 作业提交 「仓库代码地址」，在 README.md 中 输出「部署成功的服务器地址」
+- 作业提交 「**仓库代码地址**」，在 README.md 中 输出「**部署成功的服务器地址**」
 
 　　
 

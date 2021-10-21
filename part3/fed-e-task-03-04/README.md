@@ -1,10 +1,8 @@
+## 完成gridsome视频中博客练习, 并部署到服务器
+
 
 
 #### 作业要求:
-
- \- 有什么疑问找导师
-
- \- 使用 Gridsome 实现下面博客首页 .\- 以下三个三选一
 
  \- 项目必须部署，不部署算不合格哈
 
@@ -15,6 +13,10 @@
   购买服务器地址   https://www.ucloud.cn/site/active/lagou.html?ytag=lagou0910
 
 
+
+服务器上安装 strapi 和 mysql 可参考下面资料
+
+**[参考](https://gitee.com/lagoufed/fed-e-questions/blob/master/part3/part3-4/01-%E5%AE%89%E8%A3%85strapi%E5%92%8Cmysql.md)**
 
 #### Gridsome 无法安装, 项目无法创建, 请看下面
 
@@ -40,24 +42,7 @@ git clone https://gitee.com/2xx/gridsome.git
 
 
 
-#### 选题0:
-
- \- 完成老师课堂练习, 并成功部署到服务器上
-
-#### 选题1:
-
- \- 实现左侧前四个侧边栏的效果和内容。
-
- \- 项目地址 https://github-laziji.github.io/#/user/new/main
 
 
 
-![CgqCHl8575iAbsF4AAH_5qlinHg640](images/CgqCHl8575iAbsF4AAH_5qlinHg640.png)
 
-
-
-#### 选题2：
-
-\- 项目地址 https://gridsome-forestry.netlify.app/
-
-![Cip5yF_qwu2AFO34AAChRmW4uJg361](images/Cip5yF_qwu2AFO34AAChRmW4uJg361.png)
