@@ -1,4 +1,8 @@
 const fp = require('lodash/fp')
+let log = (value) =>{
+  console.log('log', value)
+  return value
+}
 // 数据
 // horsepower 马力, dollar_value 价格, in_stock 库存
 const cars = [{
@@ -49,7 +53,7 @@ const cars = [{
 */
 
 // 1.实现 isLastInStock 函数
-
+let  isLastInStock =  fp.flowRight(fp.prop('in_stock'),fp.last)
 // 2.打印测试
 console.log(isLastInStock(cars))  // 最终返回 true
 
@@ -59,7 +63,7 @@ console.log(isLastInStock(cars))  // 最终返回 true
   把 fp.prop(), fp.first() 组合而成
 */
 // 1.实现 firstName 函数
-
+let  firstName =  fp.flowRight(fp.prop('name'),fp.first)
 // 2.打印测试
 console.log(firstName(cars))  // 最终返回 Ferrari FF (第一个 car 的 name) 
 
@@ -82,7 +86,7 @@ let _average = function (xs) {
 } // <- 无须改动
 
 // 1.实现 averageDollarValue 函数
-
+let averageDollarValue = fp.flowRight(_average, fp.map((car) => car.dollar_value))
 // 2.打印测试
 console.log(averageDollarValue(cars))  // 最终返回 
 
@@ -108,10 +112,10 @@ let _underscore = fp.replace(/\W+/g, '_') // <--无须改动
 
 // 1.实现 sanitizeNames 函数
 
-
+let strToLowerToUnderscore = fp.flowRight(_underscore, fp.toLower)
+let sanitizeNames =  fp.map((car) => strToLowerToUnderscore(car.name))
 // 2.打印测试
 console.log(sanitizeNames(cars))
-
 /*
     [
       'ferrari_ff',
