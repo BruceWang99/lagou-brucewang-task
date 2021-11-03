@@ -1,5 +1,3 @@
-const { reject } = require("lodash")
-
 /*
 尽可能还原 Promise 中的每一个 API, 并通过注释的方式描述思路和原理.
 1、Promise基础部分, 是一个类, new 这个类的时候, 传一个立即执行的函数, 函数有两个参数, 一个resolve
