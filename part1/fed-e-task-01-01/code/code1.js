@@ -12,22 +12,22 @@
     }, 10)
   }, 10)
 */
-
-// 改进1 (还是有地狱回调)
-Promise.resolve('hello ').then(a=>{
-	Promise.resolve('lagou ').then(b=>{
-		Promise.resolve('I lova U').then(c=>{
-			console.log(a + b + c);
-		})
-	})
-})
-
-// 改进2 链式调用
-Promise.resolve('hello ')
-.then(a=>{
-	let  b = 'lagou ';
-	return {a, b};
+const MyPromise = require('./MyPromise.js')
+new MyPromise((resolve)=>{
+  setTimeout(function () {
+    var a = 'hello'
+    resolve(a);
+  }, 10)
+}).then(a => {
+  return new MyPromise((resolve, reject)=>{
+    setTimeout(function () {
+      var b = 'lagou'
+      resolve({a, b});
+    }, 10)
+  })
 }).then(({a, b})=>{
-	let c = 'I lova U'
-	console.log(a + b + c);
+  setTimeout(function () {
+    var c = 'I ♥ U'
+    console.log(a + b + c)
+  }, 10)
 })
