@@ -176,6 +176,8 @@ class MyPromise{
 		
 	}
 }
+module.exports = MyPromise;
+
 // MyPromise.race([new MyPromise((resolve,reject)=>{
 // 	setTimeout(()=>{
 // 		resolve('s')
