@@ -120,7 +120,7 @@ const serve = () =>{
 const useref = ()=>{
   return src(config.build.paths.pages, {
     base: config.build.temp,
-	cwd: config.build.src
+	  cwd: config.build.src
   })
   .pipe(plugins.useref({ searchPath: [config.build.temp, '.']})) // 合并node_modules引入的文件
   .pipe(plugins.if(/\.js$/, plugins.uglify()))
