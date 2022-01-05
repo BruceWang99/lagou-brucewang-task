@@ -17,38 +17,27 @@ let vm = new Vue({
  }
 })
 ```
-
- 　
-
-　
-
-　
-
+不是响应式数据
+可以使用Vue.set(target, props, value) 这个方法把name设置成响应式数据
+内部原理: 
+set原理: 使用Object.defineProperty的getter和setter, 对数据进行劫持, 形成响应式数据
+详细解释: data对象的数据被数据代理到vue的实例上, data对象上的数据又通过observer做了数据劫持, 在初始化的时候, dog是个空对象, 所以无法劫持不存在属性的响应式, 这是不是响应式数据的原因. 使用Vue.set 会使用Object.defineProperty手动对name属性进行响应式的转化, 从而更新到视图
 
 
 ### 2、请简述 Diff 算法的执行过程
 
-　
+　1. 有真实dom节点, 先转化为vnode
+　2. 对比新旧vnode节点的差异, 更新差异部分的节点
+　3. 渲染真实的dom 
 
-　
-
-　
-
-
-
- 
 
 ## 二、编程题
 
 ### 1、模拟 VueRouter 的 hash 模式的实现，实现思路和 History 模式类似，把 URL 中的 # 后面的内容作为路由的地址，可以通过 hashchange 事件监听路由地址的变化。
-
- 　
-
-　
+代码地址: https://github.com/BruceWang99/my-vue-router/blob/master/src/vue-router/index.js
 
 ### 2、在模拟 Vue.js 响应式源码的基础上实现 v-html 指令，以及 v-on 指令。
 
  　
 
 　
-
