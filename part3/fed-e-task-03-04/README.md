@@ -2,7 +2,7 @@
 # 已完成,如下: 
 
 blog链接: https://blog-gridsome-git-main-brucewang99.vercel.app
-admin链接: http://124.223.15.144:1337/admin 账密: 1976724119@qq.com 密码: Ww123456
+admin链接: http://124.223.15.144:1337/admin
 
 
 #### 作业要求:
