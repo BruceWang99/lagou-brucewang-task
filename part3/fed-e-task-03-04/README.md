@@ -1,5 +1,8 @@
 ## 完成gridsome视频中博客练习, 并部署到服务器
+# 已完成,如下: 
 
+blog链接: https://blog-gridsome-git-main-brucewang99.vercel.app
+admin链接: http://124.223.15.144:1337/admin 账密: 1976724119@qq.com 密码: Ww123456
 
 
 #### 作业要求:
@@ -39,10 +42,3 @@ git clone https://gitee.com/2xx/startbootstrap-clean-blog.git
 ```
 git clone https://gitee.com/2xx/gridsome.git
 ```
-
-
-
-
-
-
-
